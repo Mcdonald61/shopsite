@@ -1,0 +1,235 @@
+@media only screen and (min-width: 992px) {
+   
+  .navbar-brand{
+    display: none;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+   
+    nav{
+     background-color: black;
+     color: white;
+    
+     
+     .nav-link{
+       color: white;
+       font-size: 200%;
+       background-color: none;
+       font-weight: bolder;
+     }
+  
+      .active{
+          position: relative;
+          background: black;
+          margin-top: 0px;
+          padding: 0px;
+          left: -50px;
+          // padding-left: 54%;
+          padding-top: 0px;
+          padding-bottom: 0%;
+          margin-bottom: 0px;
+      }
+      .firstinp{
+          border: none;
+      }
+      .firstbtn{
+          border: none;
+      }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+    .bac{
+        background-image: url("../slider1.jpg");
+       width: 100%;
+          background-size: cover;
+       background-repeat: no-repeat;
+      
+    
+        
+        .bac1{
+          padding-top: 0%;
+          padding-left: 0%;
+          
+          .best{
+            font-size: 300%;
+            text-align: center;
+            font-weight: bolder;
+          }
+          .lox1{
+            color: rgb(98, 231, 98);;
+            font-size: 160%;
+           text-align: center;
+            // position: relative;
+            // left: 12%;
+    
+            
+          }
+        }
+      }
+
+.bac2{
+    text-align: center;
+    background: whitesmoke;
+  
+  .bout{
+    padding-left: 1% ;
+    font-size: 300%;
+
+  .A{
+    color: rgb(98, 231, 98);
+    font-size: 170%;
+  }
+  
+}
+}
+.lorem{
+  padding-left: 13%;
+  width: 80%;
+  padding-bottom: 4%;
+}
+.imgvid{
+    margin-left: 0%;
+    padding-bottom: 0%;
+    width: 100%;
+    .videoimg{
+        width: 100%;
+    }
+    }
+    .thecon{
+        background-color: rgba(231, 231, 231, 0.863);
+        width: 100%;
+        margin: 0%;
+        }
+        
+        .dollar{
+          color: rgb(98, 231, 98);
+        }
+        .diamond{
+          color: black;
+        }
+      
+        
+}
+@media(max-width:1260px) {
+  .bester{
+    position: static;
+    background-color: white;
+    opacity: 0.9;
+    width: 100%;
+    text-align: center;
+  
+  }
+        
+}
+@media only screen and (max-width: 992px) {
+.green{
+  display: none;
+}
+.pix{
+  height: 50vh;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+.bac3{
+  background: whitesmoke;
+  text-align: center;
+  margin-left: 0%;
+
+.shop{
+  padding-left: 0% ;
+  font-size: 300%;
+  margin-left: 0%;
+
+.O{
+  color: rgb(98, 231, 98);
+  font-size: 170%;
+  margin-left: 0%;
+}
+
+}
+.lorem1{
+  padding-left: 0%;
+  width: 100%;
+  padding-bottom: 10%;
+  margin-left: 0%;
+}
+}
+}
+@media only screen and (max-width: 992px) {
+  .thecard{
+    width: 100%;
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 992px) {
+.last{
+  background-color: black;
+  align-items: center;
+}
+
+.lastimg{
+  width: 100%;
+  height: 100%;
+}
+}
+
+.address{
+  font-weight: bolder;
+  font-size: 150%;
+}
+@media only screen and (max-width: 992px) {
+.enteremail{
+  border-radius: 30px;
+  width: 100%;
+}
+.address1{
+  margin-right: -20% ;
+}
+}
+@media screen and (max-width: 437px) and (min-width: 437px){
+.Go{
+  background-color: rgb(98, 231, 98);
+  border-radius: 25px;
+  position: static;
+  margin-top: -20%;
+  margin-left: 80%;
+}
+}
+@media screen and (max-width: 625px) and (min-width: 576px){
+.Go{
+  background-color: rgb(98, 231, 98);
+  border-radius: 25px;
+  position: static;
+  margin-top: -70%;
+  margin-left: 50%;
+}
+}
+@media screen and (max-width: 1241px) and (min-width: 777px){
+  .Go{
+    background-color: rgb(98, 231, 98);
+    border-radius: 25px;
+    position: static;
+    margin-top: -30%;
+    margin-left: 70%;
+  }
+}
+@media screen and (width: 768px){
+  .Go{
+    background-color: rgb(98, 231, 98);
+    border-radius: 25px;
+    position: static;
+    margin-top: -50%;
+    margin-left: 60%;
+  }
+}
+@media screen and (width: 1024px){
+  .Go{
+    background-color: rgb(98, 231, 98);
+    border-radius: 25px;
+    position: static;
+    margin-top: -39%;
+    margin-left: 70%;
+  }
+}

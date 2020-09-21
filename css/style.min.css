@@ -1,0 +1,431 @@
+.bac {
+  background-image: url("../slider1.jpg");
+  width: 100%;
+  background-size: cover;
+}
+
+.bac .bac1 {
+  padding-top: 20%;
+  padding-left: 10%;
+}
+
+.bac .bac1 .best {
+  font-size: 400%;
+}
+
+.bac .bac1 .lox {
+  color: #62e762;
+  font-size: 170%;
+}
+
+.bac2 {
+  background: whitesmoke;
+}
+
+.bac2 .bout {
+  padding-left: 13%;
+  font-size: 300%;
+}
+
+.bac2 .bout .A {
+  color: #62e762;
+  font-size: 170%;
+}
+
+.lorem {
+  padding-left: 13%;
+  width: 80%;
+  padding-bottom: 4%;
+}
+
+.imgvid {
+  margin-left: 15%;
+  padding-bottom: 7%;
+}
+
+.thecon {
+  background-color: rgba(231, 231, 231, 0.863);
+  border-radius: 0%;
+}
+
+.dollar, .jewel {
+  color: #62e762;
+}
+
+.diamond {
+  color: black;
+}
+
+.bac3 {
+  background: whitesmoke;
+}
+
+.bac3 .shop {
+  padding-left: 3%;
+  font-size: 300%;
+  margin-left: 5%;
+}
+
+.bac3 .shop .O {
+  color: #62e762;
+  font-size: 170%;
+}
+
+.bac3 .lorem1 {
+  padding-left: 3%;
+  width: 80%;
+  padding-bottom: 4%;
+  margin-left: 5%;
+}
+
+.green {
+  height: 500px;
+  width: 600px;
+  margin-left: 55%;
+}
+
+.pix {
+  height: 50vh;
+  width: 90%;
+  z-index: 2;
+  position: absolute;
+  bottom: 2%;
+}
+
+.bester {
+  background-color: white;
+  opacity: 0.9;
+  width: 50%;
+  padding: 5%;
+  z-index: 6;
+  position: absolute;
+  bottom: -370%;
+  left: 12%;
+}
+
+.bester .besti {
+  font-weight: bolder;
+  font-size: 180%;
+}
+
+.contactus {
+  margin-top: 10%;
+}
+
+.contacting {
+  font-size: 350%;
+}
+
+.contacting .C {
+  color: #62e762;
+  font-size: 160%;
+  font-weight: bolder;
+}
+
+.divfor {
+  height: 100%;
+  padding-bottom: 3%;
+}
+
+.gold, .myform {
+  margin-top: 30%;
+}
+
+.myform {
+  margin-top: 10%;
+}
+
+.form-group {
+  border-radius: 300px;
+  margin: 10%;
+}
+
+.send {
+  background-color: #62e762;
+  margin-left: 37%;
+  width: 30%;
+  padding: 3%;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-size: 120%;
+}
+
+.last {
+  background-color: black;
+  padding: 7%;
+}
+
+.address {
+  font-weight: bolder;
+  font-size: 150%;
+}
+
+.enteremail {
+  border-radius: 30px;
+}
+
+.Go {
+  background-color: #62e762;
+  border-radius: 25px;
+  position: absolute;
+  top: 59px;
+  left: 75%;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body .firstcon {
+  background-color: black;
+}
+
+nav .nav-link {
+  color: #838080;
+}
+
+nav .nav-link:hover {
+  background-color: #62e762;
+  color: white;
+}
+
+nav .active {
+  background: #62e762;
+  margin-top: -16px;
+  padding: 6px;
+  padding-top: 18px;
+  padding-bottom: 3%;
+  margin-bottom: -50px;
+}
+
+nav .firstinp {
+  border: none;
+}
+
+nav .firstbtn {
+  border: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  nav {
+    background-color: black;
+    color: white;
+  }
+  nav .nav-link {
+    color: white;
+    font-size: 200%;
+    background-color: none;
+    font-weight: bolder;
+  }
+  nav .active {
+    position: relative;
+    background: black;
+    margin-top: 0px;
+    padding: 0px;
+    left: -50px;
+    padding-top: 0px;
+    padding-bottom: 0%;
+    margin-bottom: 0px;
+  }
+  nav .firstinp {
+    border: none;
+  }
+  nav .firstbtn {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .bac {
+    background-image: url("../slider1.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .bac .bac1 {
+    padding-top: 0%;
+    padding-left: 0%;
+  }
+  .bac .bac1 .best {
+    font-size: 300%;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .bac .bac1 .lox1 {
+    color: #62e762;
+    font-size: 160%;
+    text-align: center;
+  }
+  .bac2 {
+    text-align: center;
+    background: whitesmoke;
+  }
+  .bac2 .bout {
+    padding-left: 1%;
+    font-size: 300%;
+  }
+  .bac2 .bout .A {
+    color: #62e762;
+    font-size: 170%;
+  }
+  .lorem {
+    padding-left: 13%;
+    width: 80%;
+    padding-bottom: 4%;
+  }
+  .imgvid {
+    margin-left: 0%;
+    padding-bottom: 0%;
+    width: 100%;
+  }
+  .imgvid .videoimg {
+    width: 100%;
+  }
+  .thecon {
+    background-color: rgba(231, 231, 231, 0.863);
+    width: 100%;
+    margin: 0%;
+  }
+  .dollar, .jewel {
+    color: #62e762;
+  }
+  .diamond {
+    color: black;
+  }
+}
+
+@media (max-width: 1260px) {
+  .bester {
+    position: static;
+    background-color: white;
+    opacity: 0.9;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .green {
+    display: none;
+  }
+  .pix {
+    height: 50vh;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+  }
+  .bac3 {
+    background: whitesmoke;
+    text-align: center;
+    margin-left: 0%;
+  }
+  .bac3 .shop {
+    padding-left: 0%;
+    font-size: 300%;
+    margin-left: 0%;
+  }
+  .bac3 .shop .O {
+    color: #62e762;
+    font-size: 170%;
+    margin-left: 0%;
+  }
+  .bac3 .lorem1 {
+    padding-left: 0%;
+    width: 100%;
+    padding-bottom: 10%;
+    margin-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .thecard {
+    width: 100%;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .last {
+    background-color: black;
+    align-items: center;
+  }
+  .lastimg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.address {
+  font-weight: bolder;
+  font-size: 150%;
+}
+
+@media only screen and (max-width: 992px) {
+  .enteremail {
+    border-radius: 30px;
+    width: 100%;
+  }
+  .address1 {
+    margin-right: -20%;
+  }
+}
+
+@media screen and (max-width: 437px) and (min-width: 437px) {
+  .Go {
+    background-color: #62e762;
+    border-radius: 25px;
+    position: static;
+    margin-top: -20%;
+    margin-left: 80%;
+  }
+}
+
+@media screen and (max-width: 625px) and (min-width: 576px) {
+  .Go {
+    background-color: #62e762;
+    border-radius: 25px;
+    position: static;
+    margin-top: -70%;
+    margin-left: 50%;
+  }
+}
+
+@media screen and (max-width: 1241px) and (min-width: 777px) {
+  .Go {
+    background-color: #62e762;
+    border-radius: 25px;
+    position: static;
+    margin-top: -30%;
+    margin-left: 70%;
+  }
+}
+
+@media screen and (width: 768px) {
+  .Go {
+    background-color: #62e762;
+    border-radius: 25px;
+    position: static;
+    margin-top: -50%;
+    margin-left: 60%;
+  }
+}
+
+@media screen and (width: 1024px) {
+  .Go {
+    background-color: #62e762;
+    border-radius: 25px;
+    position: static;
+    margin-top: -39%;
+    margin-left: 70%;
+  }
+}
+/*# sourceMappingURL=style.min.css.map */

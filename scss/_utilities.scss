@@ -1,0 +1,159 @@
+.bac{
+    background-image: url("../slider1.jpg");
+   width: 100%;
+   background-size: cover;
+
+    
+    .bac1{
+      padding-top: 20%;
+      padding-left: 10%;
+      
+      .best{
+        font-size: 400%;
+      }
+      .lox{
+        color: rgb(98, 231, 98);
+        font-size: 170%;
+      }
+    }
+  }
+  .bac2{
+    background: whitesmoke;
+  
+  .bout{
+    padding-left: 13% ;
+    font-size: 300%;
+
+  .A{
+    color: rgb(98, 231, 98);
+    font-size: 170%;
+  }
+  
+}
+}
+.lorem{
+  padding-left: 13%;
+  width: 80%;
+  padding-bottom: 4%;
+}
+.imgvid{
+margin-left: 15%;
+padding-bottom: 7%;
+}
+.thecon{
+background-color: rgba(231, 231, 231, 0.863);
+border-radius: 0%;
+}
+.dollar{
+  color: rgb(98, 231, 98);
+}
+.diamond{
+  color: black;
+}
+.bac3{
+  background: whitesmoke;
+
+.shop{
+  padding-left: 3% ;
+  font-size: 300%;
+  margin-left: 5%;
+
+.O{
+  color: rgb(98, 231, 98);
+  font-size: 170%;
+}
+
+}
+.lorem1{
+  padding-left: 3%;
+  width: 80%;
+  padding-bottom: 4%;
+  margin-left: 5%;
+}
+}
+.green{
+  height: 500px;
+  width: 600px;
+  margin-left: 55%;
+}
+.pix{
+  height: 50vh;
+  width: 90%;
+  z-index: 2;
+  position: absolute;
+  bottom: 2%;
+}
+.bester{
+  background-color: white;
+  opacity: 0.9;
+  width: 50%;
+  padding: 5%;
+  z-index: 6;
+  position: absolute;
+  bottom: -370%;
+  left: 12%;
+  .besti{
+    font-weight: bolder;
+    font-size: 180%;
+    
+  }
+}
+.jewel{
+  @extend .dollar;
+}
+.contactus{
+  margin-top: 10%;
+}
+.contacting{
+  font-size: 350%;
+  .C{
+    color: rgb(98, 231, 98);
+    font-size: 160%;
+    font-weight: bolder;
+  }
+}
+.divfor{
+  // width: 70%;
+  height: 100%;
+  padding-bottom: 3%; 
+}
+.gold{
+  margin-top: 30%;
+}
+.myform{
+@extend .gold;
+margin-top: 10%;
+}
+.form-group{
+  border-radius: 300px;
+  margin: 10%;
+}
+.send{
+  background-color: rgb(98, 231, 98);
+  margin-left: 37%;
+  width: 30%;
+  padding: 3%;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-size: 120%;
+}
+.last{
+  background-color: black;
+  padding: 7%;
+ 
+}
+.address{
+  font-weight: bolder;
+  font-size: 150%;
+}
+.enteremail{
+  border-radius: 30px;
+
+}
+.Go{
+  background-color: rgb(98, 231, 98);
+  border-radius: 25px;
+  position: absolute;
+  top: 59px;
+  left: 75%;
+}
