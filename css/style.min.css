@@ -44,6 +44,7 @@
 }
 
 .thecon {
+  width: 80%;
   background-color: rgba(231, 231, 231, 0.863);
   border-radius: 0%;
 }
@@ -99,7 +100,7 @@
   padding: 5%;
   z-index: 6;
   position: absolute;
-  bottom: -370%;
+  bottom: -380%;
   left: 12%;
 }
 
@@ -162,14 +163,31 @@
 
 .enteremail {
   border-radius: 30px;
+  position: relative;
 }
 
 .Go {
   background-color: #62e762;
   border-radius: 25px;
   position: absolute;
-  top: 59px;
-  left: 75%;
+  top: 58px;
+  right: 25px;
+}
+
+.p1:hover {
+  background-color: blue;
+}
+
+.p2:hover {
+  background-color: #20b2e2;
+}
+
+.p3:hover {
+  background-color: #9b2a2a;
+}
+
+.p4:hover {
+  background-color: #0a6e8f;
 }
 
 * {
@@ -293,7 +311,7 @@ nav .firstbtn {
   .thecon {
     background-color: rgba(231, 231, 231, 0.863);
     width: 100%;
-    margin: 0%;
+    margin-right: -20%;
   }
   .dollar, .jewel {
     color: #62e762;
@@ -348,8 +366,8 @@ nav .firstbtn {
 
 @media only screen and (max-width: 992px) {
   .thecard {
-    width: 100%;
-    margin-left: 10%;
+    width: 120%;
+    margin-left: -10%;
   }
 }
 
@@ -375,57 +393,17 @@ nav .firstbtn {
     width: 100%;
   }
   .address1 {
-    margin-right: -20%;
+    margin-right: -21%;
+    position: relative;
   }
 }
 
-@media screen and (max-width: 437px) and (min-width: 437px) {
-  .Go {
-    background-color: #62e762;
-    border-radius: 25px;
-    position: static;
-    margin-top: -20%;
-    margin-left: 80%;
-  }
-}
-
-@media screen and (max-width: 625px) and (min-width: 576px) {
-  .Go {
-    background-color: #62e762;
-    border-radius: 25px;
-    position: static;
-    margin-top: -70%;
-    margin-left: 50%;
-  }
-}
-
-@media screen and (max-width: 1241px) and (min-width: 777px) {
-  .Go {
-    background-color: #62e762;
-    border-radius: 25px;
-    position: static;
-    margin-top: -30%;
-    margin-left: 70%;
-  }
-}
-
-@media screen and (width: 768px) {
-  .Go {
-    background-color: #62e762;
-    border-radius: 25px;
-    position: static;
-    margin-top: -50%;
-    margin-left: 60%;
-  }
-}
-
-@media screen and (width: 1024px) {
-  .Go {
-    background-color: #62e762;
-    border-radius: 25px;
-    position: static;
-    margin-top: -39%;
-    margin-left: 70%;
+@media screen and (max-width: 575px) and (min-width: 300px) {
+  .firstbtn {
+    border: none;
+    position: absolute;
+    bottom: 2%;
+    right: -7%;
   }
 }
 /*# sourceMappingURL=style.min.css.map */

@@ -99,7 +99,7 @@
     .thecon{
         background-color: rgba(231, 231, 231, 0.863);
         width: 100%;
-        margin: 0%;
+        margin-right: -20%;
         }
         
         .dollar{
@@ -159,8 +159,8 @@
 }
 @media only screen and (max-width: 992px) {
   .thecard{
-    width: 100%;
-    margin-left: 10%;
+    width: 120%;
+    margin-left: -10%;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -185,51 +185,17 @@
   width: 100%;
 }
 .address1{
-  margin-right: -20% ;
+  margin-right: -21% ;
+  position: relative;
 }
 }
-@media screen and (max-width: 437px) and (min-width: 437px){
-.Go{
-  background-color: rgb(98, 231, 98);
-  border-radius: 25px;
-  position: static;
-  margin-top: -20%;
-  margin-left: 80%;
+
+
+@media screen and (max-width: 575px) and (min-width: 300px){
+.firstbtn{
+  border: none;
+  position: absolute;
+  bottom: 2%;
+  right: -7%;
 }
-}
-@media screen and (max-width: 625px) and (min-width: 576px){
-.Go{
-  background-color: rgb(98, 231, 98);
-  border-radius: 25px;
-  position: static;
-  margin-top: -70%;
-  margin-left: 50%;
-}
-}
-@media screen and (max-width: 1241px) and (min-width: 777px){
-  .Go{
-    background-color: rgb(98, 231, 98);
-    border-radius: 25px;
-    position: static;
-    margin-top: -30%;
-    margin-left: 70%;
-  }
-}
-@media screen and (width: 768px){
-  .Go{
-    background-color: rgb(98, 231, 98);
-    border-radius: 25px;
-    position: static;
-    margin-top: -50%;
-    margin-left: 60%;
-  }
-}
-@media screen and (width: 1024px){
-  .Go{
-    background-color: rgb(98, 231, 98);
-    border-radius: 25px;
-    position: static;
-    margin-top: -39%;
-    margin-left: 70%;
-  }
 }
