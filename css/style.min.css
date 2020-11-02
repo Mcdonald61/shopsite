@@ -99,8 +99,9 @@
   width: 50%;
   padding: 5%;
   z-index: 6;
+  margin-bottom: 37%;
   position: absolute;
-  bottom: -380%;
+  bottom: -330%;
   left: 12%;
 }
 
@@ -326,7 +327,7 @@ nav .firstbtn {
     position: static;
     background-color: white;
     opacity: 0.9;
-    width: 100%;
+    width: 330%;
     text-align: center;
   }
 }
@@ -366,8 +367,14 @@ nav .firstbtn {
 
 @media only screen and (max-width: 992px) {
   .thecard {
+  
     width: 120%;
-    margin-left: -10%;
+    /* margin-left: -10%; */
+  }
+  @media screen and (max-width: 991px) and (min-width: 575px) {
+  .thecard {
+    width: 100%;
+    padding-right: none;
   }
 }
 
@@ -406,4 +413,38 @@ nav .firstbtn {
     right: -7%;
   }
 }
+@media screen and (max-width: 705px) and (min-width: 575px) {
+  
+  body .firstcon .myemail{
+position: absolute;
+/* padding-right: 56%; */
+top: 12%;
+overflow-x: hidden;
+z-index: 6;
+
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 575px) {
+.thecon {
+  background-color: rgba(231, 231, 231, 0.863);
+  width: 100%;
+  margin-right: 0%;
+}
+}
+}
+@media screen and (max-width: 1456px) and (min-width: 1260px) {
+  .bester{
+      background-color: white;
+      opacity: 0.9;
+      width: 50%;
+      padding: 5%;
+      z-index: 6;
+      /* margin-: 40%; */
+      position: absolute;
+      bottom: -470%;
+      left: 12%;
+    }
+  }
+
+
 /*# sourceMappingURL=style.min.css.map */
